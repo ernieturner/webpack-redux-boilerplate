@@ -15,7 +15,7 @@ module.exports = {
         //Application specific code.
         app: getMainCodeSources('./app/main.js'),
         //All 3rd party source
-        vendor: ['react', 'redux']
+        vendor: ['react', 'redux', 'lodash']
     },
     output: {
         path: path.join(__dirname, 'app', 'public', 'dist'),

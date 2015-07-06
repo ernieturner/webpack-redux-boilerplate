@@ -2,3 +2,4 @@ node_modules/
 dist/
 .jshintrc
 .DS_Store
+npm-debug.log

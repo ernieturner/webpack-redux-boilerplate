@@ -1,4 +1,5 @@
 var Util = require('../utils/Util');
+var _ = require('lodash');
 
 const initialState = {};
 
@@ -8,7 +9,7 @@ module.exports = Util.createReducer(initialState, {
         if(state[userID]){
             return state;
         }
-        var updatedState = {...state};
+        var updatedState = _.extend({}, state);
         updatedState[userID] = action.user;
         return updatedState;
     }
