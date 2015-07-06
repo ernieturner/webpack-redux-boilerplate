@@ -1,0 +1,44 @@
+{
+  "name": "webpack-redux-boilerplate",
+  "version": "0.0.1",
+  "description": "Webpack+React+Redux Starter Code",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ernieturner/webpack-redux-boilerplate"
+  },
+  "dependencies": {
+    "compression": "1.4.3",
+    "express": "4.12.3",
+    "express-handlebars": "1.2.2",
+    "lodash": "3.9.3",
+    "react": "^0.13.3",
+    "redux": "v1.0.0-alpha"
+  },
+  "devDependencies": {
+    "babel-loader": "^5.2.2",
+    "css-loader": "^0.15.1",
+    "eslint": "0.23.0",
+    "eslint-plugin-react": "2.5.2",
+    "file-loader": "^0.8.4",
+    "grunt": "0.4.5",
+    "grunt-babel": "^5.0.1",
+    "grunt-contrib-connect": "0.10.1",
+    "grunt-eslint": "15.0.0",
+    "grunt-mocha-test": "0.12.7",
+    "grunt-open": "0.2.3",
+    "grunt-shell-spawn": "0.3.8",
+    "grunt-webpack": "^1.0.10",
+    "load-grunt-configs": "0.4.3",
+    "matchdep": "^0.3.0",
+    "mocha": "2.2.4",
+    "node-libs-browser": "^0.5.2",
+    "node-sass": "^3.2.0",
+    "react-hot-loader": "^1.2.7",
+    "sass-loader": "^1.0.2",
+    "sinon": "1.14.1",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.10.0",
+    "webpack-dev-server": "^1.10.1"
+  }
+}
