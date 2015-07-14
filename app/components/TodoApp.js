@@ -1,6 +1,6 @@
 var React = require('react');
 var Redux = require('redux');
-var ReduxReact = require('redux/react');
+var ReduxReact = require('react-redux');
 var TodoEntry = require('./TodoEntry');
 var TodoList = require('./TodoList');
 var TodoActions = require('../actions/TodoActions');
@@ -22,10 +22,11 @@ class TodoApp {
 
     renderChild({ todos, dispatch }) {
         const actions = Redux.bindActionCreators(TodoActions, dispatch);
+
         return (
             <div>
                 <TodoEntry addTodo={actions.addTodo}/>
-                <TodoList todos={todos} actions={actions}/>
+                <TodoList todos={todos} removeTodo={actions.removeTodo}/>
             </div>
         );
     }

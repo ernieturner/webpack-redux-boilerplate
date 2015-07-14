@@ -1,6 +1,6 @@
 var React = require('react');
 var Redux = require('redux');
-var ReduxReact = require('redux/react');
+var ReduxReact = require('react-redux');
 var UserActions = require('../actions/UserActions');
 var AddUser = require('./AddUser');
 

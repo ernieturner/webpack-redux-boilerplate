@@ -11,8 +11,9 @@
     "express": "4.12.3",
     "express-handlebars": "1.2.2",
     "lodash": "3.9.3",
-    "react": "^0.13.3",
-    "redux": "v1.0.0-alpha"
+    "react": "~0.13.3",
+    "react-redux": "~0.2.2",
+    "redux": "1.0.0-rc"
   },
   "devDependencies": {
     "babel-loader": "^5.2.2",

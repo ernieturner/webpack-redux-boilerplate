@@ -7,7 +7,7 @@ class TodoList extends React.Component{
     }
 
     removeTodo(todoText){
-        this.props.actions.removeTodo(todoText);
+        this.props.removeTodo(todoText);
     }
 
     render() {
@@ -23,7 +23,7 @@ class TodoList extends React.Component{
 
 TodoList.propTypes = {
     todos: React.PropTypes.array.isRequired,
-    actions: React.PropTypes.object.isRequired
+    removeTodo: React.PropTypes.func.isRequired
 };
 
 module.exports = TodoList;
